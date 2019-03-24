@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /vhosts/dev.kcriverfest.com/httpdocs
+    destination: /vhosts/kcriverfest.com/httpdocs
 hooks:
 #  BeforeInstall:
   AfterInstall:
