@@ -415,6 +415,31 @@ nav .mbr-section-btn {
   .menu .navbar-toggleable-sm .navbar-collapse {
     display: -webkit-flex !important; } }
 
+.sponsor-logos-grid {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.sponsor-logo {
+  text-align: center;
+  margin: 1rem;
+  width: 250px;
+}
+
+.sponsor-logo img {
+  object-fit: contain;
+  width: 100%;
+}
+
+@media (min-width: 640px) {
+  .sponsor-logo { max-width: calc(50% - 2rem) }
+}
+
+@media (min-width: 1200px) {
+  .sponsor-logo { max-width: calc(25% - 2rem) }
+}
+
 /*# sourceMappingURL=style.css.map */
 .engine {
 	position: absolute;
