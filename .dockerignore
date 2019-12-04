@@ -1,0 +1,8 @@
+# version control
+.git
+.gitignore
+
+# IDEs
+.idea
+.vs
+.vscode
