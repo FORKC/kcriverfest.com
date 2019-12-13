@@ -1,0 +1,11 @@
+apiVersion: skaffold/v1
+kind: Config
+metadata:
+  name: httpdocs
+build:
+  artifacts:
+  - image: kcriverfest
+deploy:
+  kubectl:
+    manifests:
+    - ./manifests/kubernetes/*.yaml
